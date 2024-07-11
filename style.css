@@ -1,0 +1,40 @@
+.badge {
+    transition: transform 200ms ease-in-out;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    font-family: poppins,sans-serif;
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -63px;
+    transform: scale(0);
+    transition: ease-in-out 150ms;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    transform: scale(1);
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}

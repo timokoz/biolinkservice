@@ -120,6 +120,21 @@ if (isset($_POST['take_away_badge'])) {
         <button type="submit" name="assign_badge">Assign Badge</button>
     </form>
 
+ <h2>Take Away Badges</h2>
+    <form method="post" action="">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="badge">Select Badge:</label>
+        <select id="badge" name="badge">
+            <option value="booster">Booster</option>
+            <option value="donator">Donator</option>
+            <option value="early_supporter">Early Supporter</option>
+            <option value="verified">Verified</option>
+        </select>
+        <button type="submit" name="take_away_badge">Take Away Badge</button>
+    </form>
+    <br>
+
     <?php if(!empty($generatedKeys)): ?>
     <p>Generated Keys:</p>
     <ul>

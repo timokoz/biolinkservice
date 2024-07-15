@@ -5,8 +5,7 @@ simple biolink service w/ login, register and a invite system
 ![grafik](https://github.com/timokoz/biolinkservice/assets/131486274/ce4a6bdf-0190-49fe-b3d7-78a80802ed10)
 
 ### credits
+- [omni/tor](https://github.com/v6r)
 - [ChatGPT](https://chatgpt.com/)
 - [stackoverflow](https://stackoverflow.com/)
-- [omni/tor](https://github.com/v6r)
 
-much love 🤞

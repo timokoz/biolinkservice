@@ -8,3 +8,5 @@ simple biolink service w/ login, register and a invite system
 - [ChatGPT](https://chatgpt.com/)
 - [stackoverflow](https://stackoverflow.com/)
 - [omni/tor](https://github.com/v6r)
+
+much love 🤞

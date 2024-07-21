@@ -53,7 +53,7 @@ function assignBadge($username, $badgeName) {
     mysqli_query($conn, $update_sql);
 }
 
-// func to take away the badges 
+// Function to take away the badges 
 function takeAwayBadge($username, $badgeName) {
     global $conn;
     // update the users badge in the database
@@ -71,7 +71,7 @@ if (isset($_POST['assign_badge'])) {
     echo "Badge '$badgeName' assigned to user '$username'.";
 }
 
-// works def
+// Checks if the badges were taken away
 if (isset($_POST['take_away_badge'])) {
     $username = $_POST['username'];
     $badgeName = $_POST['badge'];
